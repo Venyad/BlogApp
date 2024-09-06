@@ -148,7 +148,32 @@ a{
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/navbar/navbar.module.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************/
 .navbar_container__CZncu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
 }
+
+.navbar_social__Zhp3T{
+    display: flex;
+    gap: 10px;
+    flex: 1 1;
+}
+
+.navbar_logo__uZP7g{
+    flex: 1 1;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.navbar_links__zwFDW{
+    display: flex;
+    gap: 20px;
+    flex: 1 1;
+    font-size: 20px;
+}
+
 /*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/authLinks/authLinks.module.css ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************/
