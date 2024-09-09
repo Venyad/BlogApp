@@ -54,3 +54,15 @@
         font-size: 24px;
     }
 }
+
+
+@media screen and (max-width:768px) {
+
+    .links{
+        justify-content: flex-end;
+    }
+
+    .link{
+        display: none;
+    }
+}
