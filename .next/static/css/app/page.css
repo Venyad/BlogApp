@@ -54,6 +54,34 @@
     border-radius: 5px;
     width: max-content;
 }
+
+@media screen and (max-width : 1280px){
+    .featured_title__rFWcP{
+        font-size: 72px;
+    }
+}
+@media screen and (max-width : 1024px){
+    .featured_title__rFWcP{
+        font-size: 64px;
+    }
+
+    .featured_imgContainer__phBYF{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width : 768px){
+    .featured_title__rFWcP{
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width : 640px){
+    .featured_title__rFWcP{
+        font-size: 36px;
+    }
+}
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/categoryList/categoryList.module.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************************/
