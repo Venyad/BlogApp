@@ -387,3 +387,40 @@
 .menuPosts_date__9c4uC{
     color: gray;
 }
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/menuCategories/menuCategories.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************/
+.menuCategories_categoryList__ktFqg{
+    margin-top: 35px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menuCategories_categoryItem__o9cKJ{
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+
+.menuCategories_categoryItem__o9cKJ.menuCategories_style__cZGml{
+    background-color: #57c4ff31;
+}
+
+.menuCategories_categoryItem__o9cKJ.menuCategories_fashion__iNpn3{
+    background-color: #de85c731;
+}
+.menuCategories_categoryItem__o9cKJ.menuCategories_food__ufPAu{
+    background-color: #7fb88133;
+}
+.menuCategories_categoryItem__o9cKJ.menuCategories_travel__E4B5s{
+    background-color: #ff795736;
+}
+.menuCategories_categoryItem__o9cKJ.menuCategories_culture__QFA4c{
+    background-color: #ffb04f45;
+}
+.menuCategories_categoryItem__o9cKJ.menuCategories_coding__9Rxni{
+    background-color: #5e4fff31;
+}
