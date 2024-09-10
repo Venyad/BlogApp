@@ -312,3 +312,78 @@
 .menu_date__OeTnk{
     color: gray;
 }
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/menuPosts/menuPosts.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.menuPosts_items__vgHJZ{
+    margin-top: 35px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+}
+
+.menuPosts_item__mSnIy{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menuPosts_imageContainer__A1rMd{
+    flex: 1 1;
+    aspect-ratio: 1/1;
+    position: relative;
+}
+
+.menuPosts_image__60is7{
+    border-radius: 50%;
+    border: 3px solid lightgray;
+    object-fit: cover;
+}
+
+.menuPosts_textContainer__WHbhm{
+    flex: 4 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menuPosts_category__5rmBU{
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    width: max-content;
+}
+
+.menuPosts_category__5rmBU.menuPosts_travel__37e_4{
+    background-color: #ff7857;
+}
+
+.menuPosts_category__5rmBU.menuPosts_fashion__JKLpf{
+    background-color: #ff7857;
+}
+.menuPosts_category__5rmBU.menuPosts_food__LYqSl{
+    background-color: #7fb881;
+}
+.menuPosts_category__5rmBU.menuPosts_culture__i826I{
+    background-color: #ffb14f;
+}
+.menuPosts_category__5rmBU.menuPosts_coding__ZqUWX{
+    background-color: #775aec;
+}
+
+.menuPosts_postTitle__1wobh{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--softTextColor);
+}
+
+.menuPosts_detail__li8mP{
+    font-size: 12px;
+}
+
+.menuPosts_date__9c4uC{
+    color: gray;
+}
