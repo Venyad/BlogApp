@@ -252,78 +252,11 @@
 
 }
 
-.menu_items__3fqGC{
-    margin-top: 35px;
-    margin-bottom: 60px;
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-
-}
-
-.menu_item__iFOBZ{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.menu_imageContainer__2FfB6{
-    flex: 1 1;
-    aspect-ratio: 1/1;
-    position: relative;
-}
-
-.menu_image__sMcw9{
-    border-radius: 50%;
-    border: 3px solid lightgray;
-    object-fit: cover;
-}
-
-.menu_textContainer__dAWKh{
-    flex: 4 1;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.menu_category__06Qqp{
-    padding: 3px 8px;
-    border-radius: 10px;
-    font-size: 12px;
-    color: white;
-    width: max-content;
-}
-
-.menu_category__06Qqp.menu_travel__D0vps{
-    background-color: #ff7857;
-}
-
-.menu_category__06Qqp.menu_fashion__oxnmW{
-    background-color: #ff7857;
-}
-.menu_category__06Qqp.menu_food__MPE7G{
-    background-color: #7fb881;
-}
-.menu_category__06Qqp.menu_culture__HSQnP{
-    background-color: #ffb14f;
-}
-.menu_category__06Qqp.menu_coding__Jm3b1{
-    background-color: #775aec;
-}
-
-.menu_postTitle__PZGIq{
-    font-size: 18px;
-    font-weight: 500;
-    color: var(--softTextColor);
-}
-
-.menu_detail__olOjz{
-    font-size: 12px;
-}
-
-.menu_date__OeTnk{
-    color: gray;
-}
+@media screen and (max-width: 1024px) {
+    .menu_container__jTKJp {
+      display: none;
+    }
+  }
 /*!****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/menuPosts/menuPosts.module.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************************/
