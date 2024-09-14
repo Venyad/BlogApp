@@ -75,6 +75,31 @@
     font-weight: 300;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1536px) {
+    .singlepage_title__2aVBU {
+      font-size: 54px;
+    }
+  }
+  @media screen and (max-width: 1280px) {
+    .singlepage_title__2aVBU {
+      font-size: 48px;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .singlepage_imageContainer__mAL_Z {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .singlepage_title__2aVBU {
+      font-size: 36px;
+    }
+  
+    .singlepage_description__84iAo p{
+      font-size: 18px;
+    }
+  }
 /*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/menu/menu.module.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************/
