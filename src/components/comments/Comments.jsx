@@ -47,6 +47,63 @@ const Comments = () => {
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, sed ipsa quam maiores illum unde atque nemo nostrum temporibus voluptate ut ipsam soluta, dolorem impedit eaque ad? Eum, aliquid dolor.
                     </p>
                 </div>
+                <div className={styles.comment}>
+                    <div className={styles.user}>
+                        <Image
+                            src="/p1.jpeg"
+                            alt=""
+                            width={50}
+                            height={50}
+                            className={styles.image}
+                        />
+
+                        <div className={styles.userInfo}>
+                            <span className={styles.username}>John Doe</span>
+                            <span className={styles.date}>01.01.2023</span>
+                        </div>
+                    </div>
+                    <p className={styles.desc}>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, sed ipsa quam maiores illum unde atque nemo nostrum temporibus voluptate ut ipsam soluta, dolorem impedit eaque ad? Eum, aliquid dolor.
+                    </p>
+                </div>
+                <div className={styles.comment}>
+                    <div className={styles.user}>
+                        <Image
+                            src="/p1.jpeg"
+                            alt=""
+                            width={50}
+                            height={50}
+                            className={styles.image}
+                        />
+
+                        <div className={styles.userInfo}>
+                            <span className={styles.username}>John Doe</span>
+                            <span className={styles.date}>01.01.2023</span>
+                        </div>
+                    </div>
+                    <p className={styles.desc}>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, sed ipsa quam maiores illum unde atque nemo nostrum temporibus voluptate ut ipsam soluta, dolorem impedit eaque ad? Eum, aliquid dolor.
+                    </p>
+                </div>
+                <div className={styles.comment}>
+                    <div className={styles.user}>
+                        <Image
+                            src="/p1.jpeg"
+                            alt=""
+                            width={50}
+                            height={50}
+                            className={styles.image}
+                        />
+
+                        <div className={styles.userInfo}>
+                            <span className={styles.username}>John Doe</span>
+                            <span className={styles.date}>01.01.2023</span>
+                        </div>
+                    </div>
+                    <p className={styles.desc}>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, sed ipsa quam maiores illum unde atque nemo nostrum temporibus voluptate ut ipsam soluta, dolorem impedit eaque ad? Eum, aliquid dolor.
+                    </p>
+                </div>
 
             </div>
         </div>
