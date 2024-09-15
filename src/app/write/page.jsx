@@ -1,10 +1,15 @@
+"use client"
+
 import Image from 'next/image'
 import React, { useState } from 'react'
 import styles from "./writePage.module.css"
+import ReactQuill from "react-quill";
+import "react-quill/dist/quill.bubble.css"
 
 const WritePage = () => {
 
     const [open, setOpen] = useState(false);
+    const [value, setValue] = useState("");
     ; return (
         <div className={styles.container}>
             <input type="text" placeholder="Title" />
@@ -25,6 +30,7 @@ const WritePage = () => {
                         </button>
                     </div>
                 )}
+                <ReactQuill theme='bubble' value={value} onChange={setValue} placeholder="Tell your story..." />
             </div>
         </div>
     )
