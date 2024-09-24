@@ -3,7 +3,7 @@ import styles from "./card.module.css"
 import Image from 'next/image';
 import Link from 'next/link';
 
-const Card = ({key}) => {
+const Card = ({key,item}) => {
     return (
         <div className={styles.container} key={key}>
             <div className={styles.imageContainer}>
@@ -16,7 +16,7 @@ const Card = ({key}) => {
 
                 </div>
                 <Link href="/">
-                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    <h1>{item.title}</h1>
 
                 </Link>
                 <p className={styles.desc}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti in ullam ipsum, adipisci suscipit nulla repellendus soluta doloremque facere recusandae perferendis. Ullam molestias fuga totam maxime? Dolor saepe totam sit.</p>
