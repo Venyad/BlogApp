@@ -26,7 +26,7 @@ const CardList = async ({page}) => {
       {data && Array.isArray(data) && data.map((item) => (<Card item={item} key={item._id}/>))}
 
       </div>
-      <Pagination />
+      <Pagination page={page}/>
     </div>
   )
 }
