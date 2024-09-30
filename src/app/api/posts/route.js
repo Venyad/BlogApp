@@ -21,7 +21,7 @@ export const GET = async (req) => {
 
         const [posts,count] = await prisma.post.$transaction([
            prisma.post.findMany(query),
-           prisma.post.count(),
+           prisma.post.count({where:query.where}),
 
 
         ]);
